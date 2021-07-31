@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="getRandomNo()">
+    <section class="section-container">
+        <a href="./index.html">Back</a>
+        <h3>Which angle it is ?</h3>
+        <div>
+            <input id="fangle" >
+            <input id="sangle" >
+            <input id="tangle" >
+        </div>
+        <div>
+            <input type="checkbox" id="obtuse-angle" value="obtuseangle">
+            <label for="obtuse-angle"> Obtuse Angle</label>
+            <input type="checkbox" id="right-angle" value="rightangle">
+            <label for="right-angle"> Right Angle</label>
+            <input type="checkbox" id="acute-angle" value="acuteangle">
+            <label for="acute-angle"> Acute Angle</label>
+        </div>
+        <p id="msg"></p>
+        <div>
+            <button class="btn-submit" id="btn-next-quiz">Next</button>
+        </div>
+    </section>
+
+    <script src="./whichangle.js"></script>
+</body>
+</html>
