@@ -2,10 +2,11 @@ body{
     width: 600px;
     margin: auto;
     padding: 1rem;
-    border-left: solid 2px;
-    border-right: solid 2px;
 }
 
+.quizes{
+    border-left: solid 2px;
+}
 .container {
     padding: 1rem;
     border-bottom: 0.5rem solid;
@@ -49,3 +50,49 @@ span {
     padding-right: 1rem;
     padding-left: 1rem;
 }
+
+/* index.html styling */
+
+.header{
+    text-align: center;
+    padding: 2rem;
+}
+.container-btn{
+    text-align: center;
+    margin-top: 3rem;
+}
+.btn-nav{
+  border: solid 2px;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+    padding: 00.5rem;
+    box-shadow: 1rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+    padding: 1rem;
+}
+
+/* make triangle.html */
+
+.section-container{
+    margin : 3rem;
+    
+}
+
+.container-input{
+    margin-top: 6rem;
+    font-size: large;
+    text-align: center;
+}
+
+.section-container input{
+    width: 2rem;
+    height: 1.5rem;
+}
+
