@@ -1,0 +1,51 @@
+body{
+    width: 600px;
+    margin: auto;
+    padding: 1rem;
+    border-left: solid 2px;
+    border-right: solid 2px;
+}
+
+.container {
+    padding: 1rem;
+    border-bottom: 0.5rem solid;
+}
+
+.btn-home {
+    text-decoration: none;
+    font-size: 1.5rem ;
+    background-color:aqua;
+    margin: 0.5rem;
+    padding: 0rem 1rem;
+    border-radius: 0.7rem;
+}
+
+.container-score{
+    text-align: center;
+}
+
+.err-msg {
+    color : red ;
+    padding: 0.5rem;
+    font-weight: bolder;
+}
+
+.btn-submit {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size:large;
+    font-weight: bolder;
+    background-color: aqua;
+}
+
+.score-msg{
+    font-size: large;
+    font-weight: bold;
+}
+
+span {
+    background-color: rgb(6, 21, 158);
+    color: antiquewhite;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
