@@ -1,9 +1,10 @@
 body{
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: auto;
     padding: 1rem;
     background-image: url("./image/abstract-2829961_1920.png");
+    background-size: cover;
     
 }
 
