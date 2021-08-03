@@ -17,7 +17,7 @@ var q10= document.quizes.q10;
 
 var quesArray = [q1 , q2, q3, q4 ,q5 ,q6 ,q7 ,q8 ,q9 ,q10];
 btnSubmit.addEventListener("click", function(e) {
-    e.preventDefault()
+    e.preventDefault();
     for(let i=0;i<quesArray.length;i++){
         console.log(quesArray[i])
         if(quesArray[i].value !="")
@@ -26,9 +26,11 @@ btnSubmit.addEventListener("click", function(e) {
             if(quesArray[i].value == "right"){
             score++; 
             }
+            btnSubmit.style.display ="none"
         }else{
             errMsg.style.display = "block";
         }
     }
     finalScore.innerHTML=score;
+    
 })

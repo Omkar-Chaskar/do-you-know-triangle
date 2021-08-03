@@ -21,6 +21,7 @@ btnCalcArea.addEventListener("click", function (){
         document.querySelector("#msg").innerHTML = area;
     } else {
         document.querySelector("#msg").innerHTML = "please enter values in order of Addition of two values are greater than third value";
+        document.querySelector("#msg").style.color = "red";
     }
 
     

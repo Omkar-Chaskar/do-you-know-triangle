@@ -1,15 +1,19 @@
 body{
-    width: 600px;
+    width: 100%;
+    height: auto;
     margin: auto;
     padding: 1rem;
+    background-image: url("./image/abstract-2829961_1920.png");
+    
 }
 
 .quizes{
-    border-left: solid 2px;
+    width: 600px;
+    margin: auto;
 }
 .container {
     padding: 1rem;
-    border-bottom: 0.5rem solid;
+    border-bottom: 0.3rem solid rgb(230, 197, 208);
 }
 
 .btn-home {
@@ -37,6 +41,10 @@ body{
     font-size:large;
     font-weight: bolder;
     background-color: aqua;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
 }
 
 .score-msg{
@@ -45,8 +53,8 @@ body{
 }
 
 span {
-    background-color: rgb(6, 21, 158);
-    color: antiquewhite;
+    background-color: rgb(230, 197, 208);
+    color: rgb(177, 31, 165);
     padding-right: 1rem;
     padding-left: 1rem;
 }
@@ -95,4 +103,12 @@ li{
     width: 2rem;
     height: 1.5rem;
 }
+ 
+/* area of triangle */
 
+.area-container{
+    width: 600px;
+    margin: auto;
+    margin-top: 15%;
+    margin-right: 8rem;
+}

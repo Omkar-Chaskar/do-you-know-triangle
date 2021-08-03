@@ -9,18 +9,20 @@
 </head>
 <body>
     <section class="section-container">
-        <a href="./index.html">Back</a>
-        <h3>Calculate Area Of Triangle with 3 sides :</h3>
-        <div>
-            <input id="fangle" type="number">
-            <input id="sangle" type="number">
-            <input id="tangle" type="number">
-            <p id="err-msg"></p>
+        <div class="area-container">
+            <a class="btn-home" href="./index.html">Back</a>
+            <h3>Calculate Area Of Triangle with 3 sides :</h3>
+            <div>
+                <input id="fangle" type="number">
+                <input id="sangle" type="number">
+                <input id="tangle" type="number">
+                <p id="err-msg"></p>
+            </div>
+            <div>
+                <button class="btn-submit" id="btn-calc-area">Calculate</button>
+            </div>
+            <p id="msg"></p>
         </div>
-        <div>
-            <button class="btn-submit" id="btn-calc-area">Calculate</button>
-        </div>
-        <p id="msg"></p>
     </section>
 
     <script src="./calcarea.js"></script>
